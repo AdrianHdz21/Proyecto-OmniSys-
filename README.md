@@ -2,24 +2,36 @@
 
 04/04/2024
 --
--Se realiza la primera carga del archivo de versiones, que comprende el diseño inicial de las interfaces según lo planificado. Además, se han agregado las funcionalidades básicas a cada interfaz, aunque estas aún no están completamente operativas.    
 
--En la interfaz de ingreso, se ha llevado a cabo la programación para establecer la conexión con la base de datos. Esto nos permitirá realizar pruebas y validar el funcionamiento de las diferentes funcionalidades del sistema.    
+Se realizó la primera carga del archivo de versiones, que incluye el diseño inicial de las interfaces según lo planificado. Además, se agregaron funcionalidades básicas a cada interfaz, aunque estas aún no están completamente operativas.
 
--Se ha incluido la libreria "mssql-jdbc-12.6.1.jre11" necesaria para la conexión con la base de datos, el cual proporciona los medios para establecer una comunicación efectiva con la base de datos. Este archivo es fundamental para garantizar el acceso y la manipulación de los datos almacenados en la base de datos desde la aplicación.
+En la interfaz de ingreso, se programó la conexión con la base de datos, lo que nos permitirá realizar pruebas y validar el funcionamiento de las diferentes funcionalidades del sistema.
+
+Se incluyó la biblioteca "mssql-jdbc-12.6.1.jre11" necesaria para la conexión con la base de datos, que proporciona los medios para establecer una comunicación efectiva con la base de datos y acceder y manipular los datos almacenados en ella desde la aplicación.
 
 16/04/2024
 --
--Se modifican distintos componentes de todas las interfaces (TextFields, JComboBox, JLabels, etc), para que las interfaces cumplan con los requisitos previstos
 
--Se realiza la programacion de la mayoria de modulos de cada interfaz, dando como resultado el correcto funcionamiento y el uso en primera instancia
+Se modificaron diversos componentes de todas las interfaces (TextFields, JComboBox, JLabels, etc.), para que cumplan con los requisitos previstos.
 
--Se realiza el codigo para la creación de usuarios desde la interfaz de Gestion de Usuarios, dando como resultado un conflicto provenieente de la instancia de la base de datos usada, esto debido a factores de seguiridad. Se trabajara en este error y se espera solucionar en siguientes versiones
+Se programaron la mayoría de los módulos de cada interfaz, lo que resultó en el correcto funcionamiento y uso en primera instancia.
+
+Se implementó el código para la creación de usuarios desde la interfaz de Gestión de Usuarios, pero surgió un conflicto debido a la instancia de la base de datos utilizada, relacionado con cuestiones de seguridad. Se trabajará en la resolución de este error para futuras versiones.
 
 22/04/2024
 --
--Se concluye la programacion de los modulos del sistema, al mismo tiempo se realizan pruebas para comprobrar que no haya errores o defectos en el funcionamiento
+Se completó la programación de los módulos del sistema y se realizaron pruebas para garantizar que no haya errores o defectos en el funcionamiento.
 
--Se soluciona el conflicto en el funcionamiento de creacion de usuarios, el error fue resuelto con exito 
+Se resolvió con éxito el conflicto en el funcionamiento de la creación de usuarios, relacionado con la instancia de la base de datos.
 
--Se modifican iconos, fuentes, colores y tamaños de todos los elementos visuales del sistema, esto fue pensado para que el sistema sea mas llamativo y entendible para el usuario final
+Se realizaron modificaciones en iconos, fuentes, colores y tamaños de todos los elementos visuales del sistema para hacerlo más atractivo y comprensible para el usuario final.
+
+29/04/2024
+--
+Se agregaron las funciones de recuperación de contraseña y registro de nuevos usuarios como opciones en la interfaz de Ingreso.
+
+Para la función de recuperación de contraseña, se implementó el envío mediante correo electrónico utilizando una API gratuita y los archivos .Jars correspondientes.
+
+Se agregó la función de registro de nuevos usuarios por parte del administrador, que envía sus credenciales a través del correo electrónico.
+
+Con todas estas modificaciones, se completó la última fase de programación del proyecto.
