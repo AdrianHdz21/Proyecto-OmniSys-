@@ -1,5 +1,3 @@
-*Nota: Para ejectutar el archivo se necesita la aplicacion Netbeans para ejecutar*
-
 04/04/2024
 --
 
@@ -43,5 +41,7 @@ Se ha implementado una validación de contraseñas para prevenir errores del usu
 Con todas estas modificaciones, se completó la última fase de programación del proyecto.
 
 * NOTA: Se agregan las librerias necesarias para el correcto funcionamiento del sistema *
+  --
+* Nota: Para ejectutar el archivo se necesita la aplicacion Netbeans para ejecutar**
   --
 
