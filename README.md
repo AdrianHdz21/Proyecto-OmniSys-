@@ -26,7 +26,7 @@ Se resolvió con éxito el conflicto en el funcionamiento de la creación de usu
 
 Se realizaron modificaciones en iconos, fuentes, colores y tamaños de todos los elementos visuales del sistema para hacerlo más atractivo y comprensible para el usuario final.
 
-29/04/2024
+04/05/2024
 --
 Se agregaron las funciones de recuperación de contraseña y registro de nuevos usuarios como opciones en la interfaz de Ingreso.
 
@@ -34,4 +34,14 @@ Para la función de recuperación de contraseña, se implementó el envío media
 
 Se agregó la función de registro de nuevos usuarios por parte del administrador, que envía sus credenciales a través del correo electrónico.
 
+Se han añadido nuevos componentes a la interfaz de búsqueda, ahora accesible a través del UsuarioID, lo que garantiza una integración completa de todas las interfaces.
+
+Se ha actualizado la generación del ticket, incluyendo información adicional y realizando mejoras en otros aspectos.
+
+Se ha implementado una validación de contraseñas para prevenir errores del usuario en el servidor al crear contraseñas que no cumplan con los requisitos establecidos (más de 8 caracteres).
+
 Con todas estas modificaciones, se completó la última fase de programación del proyecto.
+
+* NOTA: Se agregan las librerias necesarias para el correcto funcionamiento del sistema *
+  --
+
